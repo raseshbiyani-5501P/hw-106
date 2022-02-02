@@ -1,0 +1,31 @@
+#header{
+
+    background-color:aquamarine;
+    padding: 10px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+
+}
+#footer{
+
+    background-color:rgb(45, 190, 142);
+    padding: 10px;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    
+
+}
+body{
+
+background-color: beige;
+
+}
+button{
+
+    margin-top:150px ;
+        width: 200px;
+    font-size: 20px !important;
+    
+}
