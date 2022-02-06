@@ -20,6 +20,7 @@
 body{
 
 background-color: beige;
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 
 }
 button{
@@ -28,4 +29,14 @@ button{
         width: 200px;
     font-size: 20px !important;
     
+}
+
+.header{
+
+padding: 10px;
+position: fixed;
+width: 100%;
+box-shadow: 5px 5px 20px rgba(5, 170, 170, 0.849);
+font-weight: 900;
+
 }
