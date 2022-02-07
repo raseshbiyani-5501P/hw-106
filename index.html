@@ -13,10 +13,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
     <title>Project 106</title>
 
 </head>
 <body>
+    <script src="main.js"></script>
+
     <center>
     <div id="header">
 <h1>Sound Controlled Animals</h1>
@@ -25,11 +29,10 @@
 
 <button onclick="start()" class="btn btn-info">Start</button>
 <br>
-<h3>I can hear- <span id="sound_main">
+<h3>I can hear-</h3> <span id="label_name"></span><br>
+<h3>Accuracy- </h3> <span id="label_accuracy"></span><br>
 
-</span> </h3>
-
-<img src="personear.png">
+<img id="rep_image" src="personear.png">
 
 <div id="footer">
 Developed By - Rasesh Biyani And Teacher.
